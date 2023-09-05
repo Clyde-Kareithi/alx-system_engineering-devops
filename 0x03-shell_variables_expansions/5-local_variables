@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -v -e -A function
+set | grep -E '^[A-Za-z_][A-Za-z_0-9]*='
